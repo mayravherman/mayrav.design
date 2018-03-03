@@ -9,7 +9,6 @@ import '../utils/reboot';
 import Footer from '../components/Footer';
 import Navigation from '../components/Header';
 import bg from './bg.jpg';
-import favicon from './favicon.ico';
 import config from '../../config/SiteConfig';
 import * as palette from '../../config/Style';
 import theme from '../utils/theme';
