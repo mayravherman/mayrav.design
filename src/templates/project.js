@@ -110,11 +110,11 @@ export default ({ data, location, pathContext }) => {
   const { slug, next, prev } = pathContext;
   const { frontmatter, html } = project;
   const {
- title, description, date, areas 
-} = frontmatter;
+    title, description, date, areas,
+  } = frontmatter;
 
   return (
-    <div>
+    <Container maxWidth="100%">
       <Helmet
         title={`Mayrav Herman - ${title}`}
         description={`${description}`}
@@ -126,7 +126,7 @@ export default ({ data, location, pathContext }) => {
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <ProjectPagination next={next} prev={prev} />
       </Container>
-    </div>
+    </Container>
   );
 };
 

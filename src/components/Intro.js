@@ -21,13 +21,8 @@ export const Headline = styled('p')`
   font-size: 1.875rem;
   font-weight: 500;
   color: ${colors.brightPurple};
-  line-height: 2.625rem;
   margin-bottom: 1.75rem;
   margin-top: 0;
-  & span {
-    color: ${colors.red};
-    display: inline-block;
-  }
   @media (max-width: ${sizes.small}px) {
     font-size: 1.5rem;
   }
