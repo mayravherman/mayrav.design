@@ -78,11 +78,11 @@ const IndexLayout = ({ children, location }) => {
       <Helmet
         title={config.siteTitleAlt}
         meta={[
-            { name: 'description', content: 'Gatsby Starter Portfolio - Emilia' },
-            { name: 'keywords', content: 'gatsby, starter, portfolio, lekoarts' },
+            { name: 'description', content: '' },
+            { name: 'keywords', content: '' },
           ]}
       >
-        <link rel="shortcut icon" href={favicon} />
+ />
       </Helmet>
       <Navigation />
       {children()}
