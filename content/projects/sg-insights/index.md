@@ -1,8 +1,8 @@
 ---
-date: "2016"
+date: "2017"
 title: "Shotgun Production Insights"
 number: "02"
-description: "A powerful way to visualize production data in Shotgun"
+description: "Visual analytics and reporting tools for project data."
 areas:
     - Product
     - UX
@@ -10,7 +10,7 @@ areas:
 
 # Shotgun Production Insights
 
-## Visual analytics and reporting tools for project data
+## A powerful way to visualize production data in Shotgun
 
 [Production Insights](https://www.shotgunsoftware.com/blog/shotgun-76-introduces-production-insights/) are a new set of analytics and reporting tools that give studios the ability to visualize key production metrics, keep a close eye on the progress of their projects, and make business-critical decisions before they snowball.
 

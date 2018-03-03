@@ -2,7 +2,7 @@
 date: "2016"
 title: "Shotgun Editorial Cuts"
 number: "04"
-description: "Simplifying editorial workflows in Shotgun"
+description: "Simplifying editorial workflows in Shotgun."
 areas:
     - Product
     - UX
