@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import { injectGlobal } from 'react-emotion';
 import { Provider } from 'rebass';
 
-import '../utils/reboot';
+import normalize from 'normalize.css';
 import Footer from '../components/Footer';
 import Navigation from '../components/Header';
 import bg from './bg.jpg';
@@ -64,7 +64,6 @@ injectGlobal`
     margin: 0 -4rem!important;
     @media (max-width: ${sizes.med}px) {
       margin: 0 auto!important;
-      padding: 0;
     }
   }
 `;

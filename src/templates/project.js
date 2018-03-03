@@ -80,7 +80,7 @@ const post = css`
     width: auto;
   }
   & img {
-    width: 44rem;
+    max-width: 44rem;
     margin: 2rem auto;
     display: block;
     text-align: center;
@@ -114,7 +114,7 @@ export default ({ data, location, pathContext }) => {
   } = frontmatter;
 
   return (
-    <Container is="main" className={container} maxWidth="100vw" px={0}>
+    <div is="main" className={container} maxWidth="100vw" px={0}>
       <Helmet
         title={`Mayrav Herman - ${title}`}
         description={`${description}`}
@@ -127,7 +127,7 @@ export default ({ data, location, pathContext }) => {
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <ProjectPagination next={next} prev={prev} />
       </Container>
-    </Container>
+    </div>
   );
 };
 
