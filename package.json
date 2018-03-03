@@ -49,10 +49,6 @@
   "keywords": [],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mayravherman/mayrav.design"
-  },
   "scripts": {
     "dev": "gatsby develop -o",
     "build": "gatsby build"
