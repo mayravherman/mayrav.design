@@ -1,4 +1,13 @@
 @font-face {
+  font-family: 'Noto Mono';
+  font-weight: normal;
+  font-style: normal;
+  src:  local('NotoSansMono-Regular'),
+        url('./noto/NotoSansMono-Regular.woff2') format('woff2'),
+        url('./noto/NotoSansMono-Regular.woff') format('woff');
+}
+
+@font-face {
   font-family: 'Fabriga';
   font-weight: 300;
   font-style: normal;
