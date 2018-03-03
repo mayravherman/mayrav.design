@@ -114,12 +114,13 @@ export default ({ data, location, pathContext }) => {
   } = frontmatter;
 
   return (
-    <Container maxWidth="100%">
+    <Container is="main" className={container} maxWidth="100vw" px={0}>
       <Helmet
         title={`Mayrav Herman - ${title}`}
         description={`${description}`}
       />
       <Container
+        is="article"
         maxWidth="44rem"
         className={post}
       >
