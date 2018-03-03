@@ -30,23 +30,21 @@ export const Headline = styled('p')`
   }
   @media (max-width: ${sizes.small}px) {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
   @media (max-width: ${sizes.xsmall}px) {
     font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 `;
 
 const Intro = () => (
   <Box is="section" aria-label="Intro" color="brightPurple" mb={9} className={css`max-width: 53rem`}>
-    <Heading mb={7} fontWeight={500} className={headline}>
+    <Headline>
       Hi, I’m <span className={css`color: ${colors.red}`}>Mayrav</span> and I'm a product designer from Silicon Valley. I like design systems, accessibility, and designing with code.
-    </Heading>
-    <Heading mb={7} fontWeight={500} className={headline}>
+    </Headline>
+    <Headline>
       I’m passionate about avocados and always have too many browser tabs open.
-    </Heading>
-    <Heading fontWeight={500} className={headline}>P.S. You look good today.</Heading>
+    </Headline>
+    <Headline>P.S. You look good today.</Headline>
   </Box>
 );
 
