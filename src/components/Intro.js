@@ -16,7 +16,7 @@ const headline = css`
   }
 `;
 
-export const Headline = styled.p`
+export const Headline = styled('p')`
   font-family: 'Fabriga';
   font-size: 1.875rem;
   font-weight: 500;

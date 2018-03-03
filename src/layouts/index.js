@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import { injectGlobal } from 'react-emotion';
 import { Provider } from 'rebass';
 
+import '../utils/reboot';
 import Footer from '../components/Footer';
 import Navigation from '../components/Header';
 import bg from './bg.jpg';
@@ -13,7 +14,6 @@ import config from '../../config/SiteConfig';
 import * as palette from '../../config/Style';
 import theme from '../utils/theme';
 import { sizes } from '../utils/media';
-import '../utils/reboot';
 import '../fonts/fonts.css';
 
 /* eslint no-unused-expressions: off */
