@@ -3,9 +3,6 @@
   "description": "Mayrav Herman is a product designer from Silicon Valley.",
   "version": "1.0.0",
   "author": "Mayrav Herman <mayravherman@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/LeKoArts/gatsby-starter-portfolio-emilia/issues"
-  },
   "dependencies": {
     "babel-plugin-emotion": "^9.0.1",
     "date-fns": "^1.29.0",
@@ -54,7 +51,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeKoArts/gatsby-starter-portfolio-emilia.git"
+    "url": "git+https://github.com/mayravherman/mayrav.design"
   },
   "scripts": {
     "dev": "gatsby develop -o",

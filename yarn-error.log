@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js dev
+  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js build
 
 PATH: 
-  /Users/Mayrav/.rbenv/shims:/Users/Mayrav/.rbenv/shims:/Users/Mayrav/.rbenv/shims /Users/Mayrav/.rbenv/shims /usr/local/bin /usr/bin /bin /usr/sbin /sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+  /Users/Mayrav/.rbenv/shims:/Users/Mayrav/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 Yarn version: 
   1.5.1
@@ -19,9 +19,6 @@ npm manifest:
     "description": "Mayrav Herman is a product designer from Silicon Valley.",
     "version": "1.0.0",
     "author": "Mayrav Herman <mayravherman@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/LeKoArts/gatsby-starter-portfolio-emilia/issues"
-    },
     "dependencies": {
       "babel-plugin-emotion": "^9.0.1",
       "date-fns": "^1.29.0",
@@ -40,6 +37,7 @@ npm manifest:
       "gatsby-plugin-react-helmet": "^2.0.3",
       "gatsby-plugin-sharp": "^1.6.25",
       "gatsby-plugin-styled-components": "^2.0.9",
+      "gatsby-remark-copy-linked-files": "^1.5.30",
       "gatsby-remark-external-links": "^0.0.4",
       "gatsby-remark-images": "^1.5.39",
       "gatsby-remark-responsive-iframe": "^1.4.18",
@@ -69,11 +67,11 @@ npm manifest:
     "main": "n/a",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/LeKoArts/gatsby-starter-portfolio-emilia.git"
+      "url": "git+https://github.com/mayravherman/mayrav.design"
     },
     "scripts": {
       "dev": "gatsby develop -o",
-      "build": "gatsby build"
+      "build": "gatsby build -o"
     },
     "browserslist": [
       "> 1%",
@@ -4317,6 +4315,19 @@ Lockfile:
       babel-runtime "^6.26.0"
       scroll-behavior "^0.9.9"
       warning "^3.0.0"
+  
+  gatsby-remark-copy-linked-files@^1.5.30:
+    version "1.5.30"
+    resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-1.5.30.tgz#5834fb6d4a8a50c58e7e91309bd0af396474dd29"
+    dependencies:
+      babel-runtime "^6.26.0"
+      cheerio "^1.0.0-rc.2"
+      fs-extra "^4.0.1"
+      is-relative-url "^2.0.0"
+      lodash "^4.17.4"
+      path-is-inside "^1.0.2"
+      probe-image-size "^3.2.0"
+      unist-util-visit "^1.1.1"
   
   gatsby-remark-external-links@^0.0.4:
     version "0.0.4"
@@ -11687,7 +11698,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c gatsby develop -o
+  Arguments: -c gatsby build -o
   Directory: /Users/Mayrav/projects/port/mh2018
   Output:
   
