@@ -62,6 +62,7 @@ injectGlobal`
   .gatsby-resp-image-wrapper {
     padding: 2rem 0;
     margin: 0 -4rem!important;
+    display: block;
     @media (max-width: ${sizes.med}px) {
       margin: 0 auto!important;
       padding: 0;

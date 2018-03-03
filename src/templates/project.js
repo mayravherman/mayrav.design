@@ -46,6 +46,8 @@ const H3 = styled.h3`
 `;
 
 const post = css`
+  max-width: 44rem;
+  margin: 0 auto;
   & p {
     font-size: 1.125rem;
     line-height: 1.5;
@@ -60,7 +62,7 @@ const post = css`
   & hr {
     margin: 4rem auto;
     opacity: 0.4;
-    width: 85%;
+    max-width: 85%;
   }
   & h1 {
     font-size: 2.5rem;
@@ -82,8 +84,6 @@ const post = css`
   & img {
     max-width: 44rem;
     margin: 2rem auto;
-    display: block;
-    text-align: center;
     }
   @media (max-width: ${sizes.med}px) {
     & p {
@@ -99,7 +99,7 @@ const post = css`
     }
     & img {
       height: auto;
-      width: 100%;
+      max-width: 100%;
       margin: 2.4rem 0;
     }
   }
@@ -114,20 +114,18 @@ export default ({ data, location, pathContext }) => {
   } = frontmatter;
 
   return (
-    <div is="main" className={container} maxWidth="100vw" px={0}>
+    <Container is="main" className={container} maxWidth="100vw" px={0}>
       <Helmet
         title={`Mayrav Herman - ${title}`}
         description={`${description}`}
       />
       <Container
-        is="article"
-        maxWidth="44rem"
         className={post}
       >
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        <ProjectPagination next={next} prev={prev} />
       </Container>
-    </div>
+      <ProjectPagination next={next} prev={prev} />
+    </Container>
   );
 };
 

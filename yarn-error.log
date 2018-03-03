@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js build
+  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js
 
 PATH: 
   /Users/Mayrav/.rbenv/shims:/Users/Mayrav/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
@@ -65,13 +65,9 @@ npm manifest:
     "keywords": [],
     "license": "MIT",
     "main": "n/a",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mayravherman/mayrav.design"
-    },
     "scripts": {
       "dev": "gatsby develop -o",
-      "build": "gatsby build -o"
+      "build": "gatsby build"
     },
     "browserslist": [
       "> 1%",
@@ -7233,6 +7229,10 @@ Lockfile:
       query-string "^4.1.0"
       sort-keys "^1.0.0"
   
+  normalize.css@^8.0.0:
+    version "8.0.0"
+    resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.0.tgz#14ac5e461612538a4ce9be90a7da23f86e718493"
+  
   npm-run-path@^2.0.0:
     version "2.0.2"
     resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -11695,16 +11695,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-1.0.2.tgz#9b059541bfa844799fe2d903bde609de2503a041"
 
 Trace: 
-  Error: Command failed.
-  Exit code: 1
-  Command: sh
-  Arguments: -c gatsby build -o
-  Directory: /Users/Mayrav/projects/port/mh2018
-  Output:
-  
-      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:30281:17)
-      at ChildProcess.emit (events.js:127:13)
-      at maybeClose (internal/child_process.js:933:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+  Error: https://registry.yarnpkg.com/postcss-media-minmax/-/postcss-media-minmax-2.1.2.tgz: Request failed "504 Gateway Timeout"
+      at new ResponseError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:238:112)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:61626:26)
+      at Request.emit (events.js:127:13)
+      at Request.module.exports.Request.onRequestResponse (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:133316:10)
+      at ClientRequest.emit (events.js:127:13)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:538:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+      at TLSSocket.socketOnData (_http_client.js:444:20)
+      at TLSSocket.emit (events.js:127:13)
+      at addChunk (_stream_readable.js:269:12)
