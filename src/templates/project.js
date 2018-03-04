@@ -46,12 +46,10 @@ const H3 = styled.h3`
 `;
 
 const post = css`
-  max-width: 44rem;
-  margin: 0 auto;
   & p {
     font-size: 1.125rem;
     line-height: 1.5;
-    margin: 1.4rem auto;
+    margin: 1.4rem 0;
     & a {
     &:hover {
     color: ${colors.brightPurple};
@@ -62,7 +60,7 @@ const post = css`
   & hr {
     margin: 4rem auto;
     opacity: 0.4;
-    max-width: 85%;
+    width: 85%;
   }
   & h1 {
     font-size: 2.5rem;
@@ -82,8 +80,8 @@ const post = css`
     width: auto;
   }
   & img {
-    max-width: 44rem;
     margin: 2rem auto;
+    max-width: 100%;
     }
   @media (max-width: ${sizes.med}px) {
     & p {
@@ -98,7 +96,7 @@ const post = css`
       line-height: 3.2rem;
     }
     & img {
-      height: auto;
+      height: 100%;
       max-width: 100%;
       margin: 2.4rem 0;
     }
@@ -120,6 +118,7 @@ export default ({ data, location, pathContext }) => {
         description={`${description}`}
       />
       <Container
+        maxWidth="44rem"
         className={post}
       >
         <div dangerouslySetInnerHTML={{ __html: html }} />

@@ -5,7 +5,6 @@ import Helmet from 'react-helmet';
 import { injectGlobal } from 'react-emotion';
 import { Provider } from 'rebass';
 
-import reboot from '../utils/reboot';
 import Footer from '../components/Footer';
 import Navigation from '../components/Header';
 import bg from './bg.jpg';
