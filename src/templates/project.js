@@ -96,7 +96,7 @@ const post = css`
       line-height: 3.2rem;
     }
     & img {
-      height: 100%;
+      height: auto;
       max-width: 100%;
       margin: 2.4rem 0;
     }
