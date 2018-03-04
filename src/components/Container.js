@@ -15,7 +15,7 @@ export const container = css`
 export default ({ children }) => (
   <Container
     is="main"
-    px={[5, 5, 8, 8, 0]}
+    px={[5, 5, 8]}
     pt={[2, 2, 5]}
     pb={2}
     maxWidth="68rem"
