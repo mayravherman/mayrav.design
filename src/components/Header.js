@@ -12,6 +12,7 @@ import styledLink from './Links';
 const header = css`
   height: 6.5rem;
   padding: 0 2.5rem;
+  transition: all 0.4s ease-in-out;
   @media (max-width: ${sizes.small}px) {
     padding: 0 1.25rem;
   }
