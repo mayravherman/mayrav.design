@@ -146,6 +146,7 @@ ReadWorks made it stupid easy for teachers to integrate AAD printouts into their
 
 <iframe src="https://player.vimeo.com/video/254905483?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+
 #### **Step 1.** Set the purpose for the routine:
 
 *Words are where humans store knowledge. So we will build our knowledge by reading these articles. We will also increase our vocabulary, improve our reading stamina, and enjoy reading every day!*

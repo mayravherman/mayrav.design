@@ -82,7 +82,7 @@ const post = css`
   & img {
     margin: 2rem auto;
     max-width: 100%;
-    }
+  }
   @media (max-width: ${sizes.med}px) {
     & p {
       font-size: 1rem;
