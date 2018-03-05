@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js
+  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js dev
 
 PATH: 
   /Users/Mayrav/.rbenv/shims:/Users/Mayrav/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
@@ -31,6 +31,7 @@ npm manifest:
       "gatsby-plugin-catch-links": "^1.0.18",
       "gatsby-plugin-emotion": "^1.1.15",
       "gatsby-plugin-google-analytics": "^1.0.15",
+      "gatsby-plugin-google-tagmanager": "^1.0.15",
       "gatsby-plugin-lodash": "^1.0.7",
       "gatsby-plugin-nprogress": "^1.0.10",
       "gatsby-plugin-offline": "^1.0.12",
@@ -4252,6 +4253,12 @@ Lockfile:
     dependencies:
       babel-runtime "^6.26.0"
   
+  gatsby-plugin-google-tagmanager@^1.0.15:
+    version "1.0.15"
+    resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-1.0.15.tgz#177d80828729a6fa7fc0be7a735201a97822ad16"
+    dependencies:
+      babel-runtime "^6.26.0"
+  
   gatsby-plugin-lodash@^1.0.7:
     version "1.0.10"
     resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-1.0.10.tgz#ea88a507c9dc4c43c9f1a748308179226d2f5715"
@@ -7228,10 +7235,6 @@ Lockfile:
       prepend-http "^1.0.0"
       query-string "^4.1.0"
       sort-keys "^1.0.0"
-  
-  normalize.css@^8.0.0:
-    version "8.0.0"
-    resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.0.tgz#14ac5e461612538a4ce9be90a7da23f86e718493"
   
   npm-run-path@^2.0.0:
     version "2.0.2"
@@ -11695,14 +11698,16 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-1.0.2.tgz#9b059541bfa844799fe2d903bde609de2503a041"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/postcss-media-minmax/-/postcss-media-minmax-2.1.2.tgz: Request failed "504 Gateway Timeout"
-      at new ResponseError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:238:112)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:61626:26)
-      at Request.emit (events.js:127:13)
-      at Request.module.exports.Request.onRequestResponse (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:133316:10)
-      at ClientRequest.emit (events.js:127:13)
-      at HTTPParser.parserOnIncomingClient (_http_client.js:538:21)
-      at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
-      at TLSSocket.socketOnData (_http_client.js:444:20)
-      at TLSSocket.emit (events.js:127:13)
-      at addChunk (_stream_readable.js:269:12)
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c gatsby develop -o
+  Directory: /Users/Mayrav/projects/port/mh2018
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:127:13)
+      at maybeClose (internal/child_process.js:933:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)

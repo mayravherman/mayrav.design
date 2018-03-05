@@ -24,7 +24,7 @@ Lead Product Designer
 EPIC
 
 
-## Overview
+### Overview
 
 Shotgun is laser focused on solving collaborative review challenges at studios and making it easier for teams of all sizes to upload, share, view, and keep track of all of their media on a single platform.
 
@@ -33,7 +33,7 @@ As VFX teams and projects grow in breadth and complexity, collaborative review b
 ***With editorial making continual changes throughout the project, keeping up manually can lead to frustrating delays and mistakes.*** Studio editorial departments need a way to make cut information transparent to the entire team.
 
 
-## The Challenge
+### The Challenge
 
 For Shotgun’s users, the ability to review work in context was groundbreaking. It had never been done before, which made it a great opportunity to stretch creatively and define new standards.
 
@@ -50,7 +50,7 @@ The brief included:
 
 
 ---- 
-# Editorial Views in the Global Media App
+## Editorial Views in the Global Media App
 
 [See release notes](https://support.shotgunsoftware.com/hc/en-us/articles/222879367-Browsing-Cuts)
 
@@ -89,7 +89,7 @@ Roll back to a previous *revision* of a cut using the breadcrumbs. Users were al
 
 
 ---- 
-# Playing Cuts in the Overlay Player
+## Playing Cuts in the Overlay Player
 
 [See release notes](https://www.youtube.com/watch?v=04ixUrUwrIE)
 

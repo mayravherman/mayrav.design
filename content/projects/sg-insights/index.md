@@ -39,7 +39,7 @@ EPIC was brought on to translate dense engineering requirements into an intuitiv
 
 ### My Role
 
-This project 6-week project was unusual in that we didn't have a product person assigned to our team. From EPIC, it was me and Andrew Peters, the Director of Design. Phil Peterson from Shotgun was the project lead. We also collaborated with a few members from the Street Team. It was mostly remote but we had meetings on-site once a week.
+This 6-week project was unusual in that we didn't have a product person assigned to our team. From EPIC, it was me and Andrew Peters, the Director of Design. Phil Peterson from Shotgun was the project lead. We also collaborated with a few members from the Street Team. It was mostly remote but we had meetings on-site once a week.
 
 
 ### Challenge
