@@ -144,32 +144,23 @@ Article-A-Day™ is a 10 minute daily routine that systematically builds student
 
 ReadWorks made it stupid easy for teachers to integrate AAD printouts into their daily class schedules. It wanted to augment that experience with its digital platform, and brought EPIC on for help reimagining the exercise for the digital space.
 
+<iframe src="https://player.vimeo.com/video/254905483?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-https://player.vimeo.com/video/254905483
-
-
-[https://vimeo.com/254905483](https://vimeo.com/254905483)
-
-
-## **Step 1.** Set the purpose for the routine:
+#### **Step 1.** Set the purpose for the routine:
 
 *Words are where humans store knowledge. So we will build our knowledge by reading these articles. We will also increase our vocabulary, improve our reading stamina, and enjoy reading every day!*
 
-
-## **Step 2.** Students read an article independently.
+#### **Step 2.** Students read an article independently.
 
 ReadWorks has curated weekly sets of nonfiction articles. All of the articles for the week are related by topic. Students read (or listen to) one article each day.
 
-
-## **Step 3.** The "Book of Knowledge"
+#### **Step 3.** The "Book of Knowledge"
 
 Students write or type 2 or 3 things that they learned from the article and would like to remember in their Books of Knowledge.
 
-
-## **Step 4.** Share knowledge in 1-2 minutes.
+#### **Step 4.** Share knowledge in 1-2 minutes.
 
 Simply ask a few students to share what they learned from reading. Record this info in your "Class Book of Knowledge."
-
 
 ## Book of Knowledge on paper
 ![Written Book of Knowledge](http://about.readworks.org/uploads/7/9/6/7/79679564/unknown_orig.jpeg)
