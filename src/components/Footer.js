@@ -16,11 +16,8 @@ const gatsbyUrl = 'https://www.gatsbyjs.org/';
 const emotionUrl = 'https://emotion.sh/';
 
 const Footer = () => (
-  <Container
-    is="footer"
-    maxWidth="68rem"
+  <footer
     className={container}
-    py={0}
   >
     <Box py={8} aria-label="Social Links">
       <Box f={5}>
@@ -45,7 +42,7 @@ const Footer = () => (
         </Link>
       </Box>
     </Box>
-  </Container>
+  </footer>
 );
 
 export default Footer;
