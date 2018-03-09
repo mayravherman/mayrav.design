@@ -7,7 +7,7 @@ import format from 'date-fns/format';
 import Img from 'gatsby-image';
 import Overdrive from 'react-overdrive';
 
-import { Box, Flex, Measure, Heading, Subhead, Container, Carousel } from 'rebass';
+import { Box, Flex, Measure, Heading, Subhead, Container, Carousel, Dot } from 'rebass';
 
 import ProjectHeader from '../components/ProjectHeader';
 import ProjectPagination from '../components/ProjectPagination';

@@ -26,6 +26,8 @@ module.exports = {
         plugins: [
           'gatsby-remark-responsive-iframe',
           'gatsby-remark-copy-linked-files',
+          'gatsby-remark-autolink-headers',
+          'gatsby-remark-component',
           {
             resolve: 'gatsby-remark-external-links',
             options: {
@@ -40,6 +42,12 @@ module.exports = {
               quality: 100,
               linkImagesToOriginal: false,
               sizeByPixelDensity: false,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-smartypants',
+            options: {
+              dashes: 'oldschool',
             },
           },
         ],

@@ -37,7 +37,6 @@ The onboarding and setup flow was in serious trouble. There were too many steps 
 
 In 2016, Shotgun conducted a free trial experience study. The numbers speak for themselves:
 
-
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2FC7A30277085936B46239A084C7FF2A76F4FAB085B32465ACBC6E4BA26D6ED_1519242652429_Pages+from+Free+Trial+Deck_12_7_2016_Page_1.png)
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2FC7A30277085936B46239A084C7FF2A76F4FAB085B32465ACBC6E4BA26D6ED_1519242675129_Pages+from+Free+Trial+Deck_12_7_2016_Page_2.png)
 

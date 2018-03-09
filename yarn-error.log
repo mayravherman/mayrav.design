@@ -41,6 +41,7 @@ npm manifest:
       "gatsby-remark-copy-linked-files": "^1.5.30",
       "gatsby-remark-external-links": "^0.0.4",
       "gatsby-remark-images": "^1.5.39",
+      "gatsby-remark-jsx": "^0.0.3",
       "gatsby-remark-responsive-iframe": "^1.4.18",
       "gatsby-source-filesystem": "^1.5.14",
       "gatsby-transformer-remark": "^1.7.29",
@@ -4353,6 +4354,12 @@ Lockfile:
       slash "^1.0.0"
       unist-util-select "^1.5.0"
   
+  gatsby-remark-jsx@^0.0.3:
+    version "0.0.3"
+    resolved "https://registry.yarnpkg.com/gatsby-remark-jsx/-/gatsby-remark-jsx-0.0.3.tgz#a895b215b71e5c083f87a9a6dcb586a2ab8d8562"
+    dependencies:
+      graphql "^0.13.1"
+  
   gatsby-remark-responsive-iframe@^1.4.18:
     version "1.4.18"
     resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-1.4.18.tgz#2c8eb174c3db8ab75f8769ae1d30c5af2e27df22"
@@ -4820,6 +4827,12 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.11.7.tgz#e5abaa9cb7b7cccb84e9f0836bf4370d268750c6"
     dependencies:
       iterall "1.1.3"
+  
+  graphql@^0.13.1:
+    version "0.13.1"
+    resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.1.tgz#9b3db3d8e40d1827e4172404bfdd2e4e17a58b55"
+    dependencies:
+      iterall "^1.2.0"
   
   gray-matter@^3.0.0:
     version "3.1.1"
@@ -5973,6 +5986,10 @@ Lockfile:
   iterall@1.1.3:
     version "1.1.3"
     resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
+  
+  iterall@^1.2.0:
+    version "1.2.2"
+    resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
   
   jimp@^0.2.24:
     version "0.2.28"
