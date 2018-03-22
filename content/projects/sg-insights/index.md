@@ -1,5 +1,5 @@
 ---
-date: "2017"
+date: "2016"
 title: "Shotgun Production Insights"
 number: "02"
 description: "Visual analytics and reporting tools for project data."

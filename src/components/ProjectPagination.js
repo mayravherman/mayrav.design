@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import Link from 'gatsby-link';
 
+import colors from '../utils/colors';
 import * as palette from '../../config/Style';
 import arrowLeft from './left-chevron.svg';
 import arrowRight from './right-chevron.svg';

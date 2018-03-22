@@ -1,5 +1,5 @@
 ---
-date: "2017"
+date: "2015-2017"
 title: "ReadWorks"
 number: "03"
 description: "Accessible online learning for diverse classrooms."
@@ -167,8 +167,5 @@ Simply ask a few students to share what they learned from reading. Record this i
 ![Written Book of Knowledge](http://about.readworks.org/uploads/7/9/6/7/79679564/unknown_orig.jpeg)
 ![Drawn Book of Knowledge (for the kiddos)](http://about.readworks.org/uploads/7/9/6/7/79679564/img-2489-73-orig_orig.jpg)
 ![Class Book of Knowledge](https://s-media-cache-ak0.pinimg.com/originals/67/b5/d7/67b5d72af34d1759359f86ae4a2cf0e3.jpg)
-
-
-
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_85F0A880817E66F86123690C27BD7FEAD910CD9A40167D25798E7486EE0B78D1_1518994772525_DraggedImage.b07c59481fed4cbda5f5252a7ac75255.png)

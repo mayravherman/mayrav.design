@@ -50,17 +50,14 @@ const post = css`
     font-size: 1.125rem;
     line-height: 1.5;
     margin: 1.4rem 0;
-    & a {
-    &:hover {
-    color: ${colors.brightPurple};
-    border-bottom: 1px solid ${colors.brightPurple};
-  }
-  }
+    & a:hover {
+      color: ${colors.brightPurple};
+      border-bottom: 1px solid ${colors.brightPurple};
+    }
   }
   & hr {
     margin: 4rem auto;
-    opacity: 0.4;
-    width: 85%;
+    opacity: 0.16;
   }
   & h1 {
     font-size: 2.5rem;

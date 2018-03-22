@@ -1,8 +1,8 @@
 ---
-date: "2016"
+date: "2015"
 title: "Shotgun Integrations"
 number: "05"
-description: "Bringing Shotgun into artist software."
+description: "Artist-friendly pipeline tools for the desktop."
 areas:
     - Product
     - UX
@@ -10,7 +10,7 @@ areas:
 
 # Shotgun Integrations
 
-Some of my earliest work with Shotgun included a long-awaited update to their pipeline toolkit for artists. Integrations are a suite of highly-configurable apps and plugins that bring Shotgun into common creative software like Maya, Nuke, and Photoshop. **They extend the Shotgun experience to the desktop, giving artists the ability to quickly find, launch, and publish work files**—freeing them up to focus on creating and iterating instead of the processes in between.
+Some of my earliest work with Shotgun included a long-awaited update to their pipeline toolkit for artists. Integrations are a suite of highly-configurable apps and plugins that bring Shotgun into common creative apps like Maya, Nuke, and Photoshop. They extend the Shotgun experience to the desktop, giving artists the ability to quickly find, launch, and publish work files—freeing them up to focus on creating and iterating instead of the processes in between.
 
 
 ### The Problem
@@ -60,3 +60,5 @@ For multi-document workflows in content creation software like Photoshop or Nuke
 When there are multiple top-level items to publish, a summary item is also included at the top of the list.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_C6B8C222631FC7174CC1B6C223D809CF0F0B11F4F3F529CB31F0C08B2EA23754_1518923590090_summary.ff2e2e1041d14233abfa606539b414a6.png)
+
+---

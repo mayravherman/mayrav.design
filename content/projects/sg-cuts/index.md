@@ -1,8 +1,8 @@
 ---
-date: "2016"
+date: "2015-2016"
 title: "Shotgun Editorial Cuts"
 number: "04"
-description: "Simplifying editorial workflows in Shotgun."
+description: "Cutting the middleman to streamline editorial workflows."
 areas:
     - Product
     - UX
@@ -37,6 +37,8 @@ As VFX teams and projects grow in breadth and complexity, collaborative review b
 
 For Shotgun’s users, the ability to review work in context was groundbreaking. It had never been done before, which made it a great opportunity to stretch creatively and define new standards.
 
+Think of cuts as specialized playlists of shots. Like playlists, they store information about relative order and length. They also store data about when the shot cuts in and out. And, unlike playlists — they can be versioned independently of the uncut media files they contain.
+
 The brief included:
 
 
@@ -59,7 +61,7 @@ It took a lot of iterating to figure out where cuts live in the system hierarchi
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/04ixUrUwrIE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Think of cuts as specialized playlists of shots. Like playlists, they store information about relative order and length. They also store data about when the shot cuts in and out. And, unlike playlists — they can be versioned independently of the uncut media files they contain.
+
 
 In the left pane, there are a few different ways to browse and find a cut:
 
@@ -87,8 +89,7 @@ Roll back to a previous *revision* of a cut using the breadcrumbs. Users were al
 ![](https://support.shotgunsoftware.com/hc/en-us/article_attachments/210027788/7_0_gma_nav_chain.jpg)
 
 
-
----- 
+----
 ## Playing Cuts in the Overlay Player
 
 [See release notes](https://www.youtube.com/watch?v=04ixUrUwrIE)
